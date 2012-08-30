@@ -1,0 +1,234 @@
+@media only screen and (min-width: 481px) and (max-width: 800px){
+	#wrapper {
+		margin: 20px auto;
+		width: 90%;
+	}
+	  
+	.main-navigation,
+	.main-navigation .menu-header,
+	div.menu,
+	#colophon,
+	#main,
+	#footer {
+	    margin: 0 auto;
+	    width: 100%;
+	}
+	
+	/*
+	LAYOUT: Responsive Images & Video
+	DESCRIPTION: Responsive.
+	*/
+	#content img {
+		margin: 0;
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	img, object, embed, iframe, #content .wp-caption {
+		max-width: 100%;
+	}
+	
+	#content figure img,
+	#content .wp-caption img{
+		max-width: 95%;
+	}
+	
+	#container {
+		float: left;
+		width: 100%;
+		overflow: auto;
+		margin-bottom: 3%;
+	}
+	
+	#content {
+		width: 94%;
+		margin: 0 0px 0 0px;
+	}
+	
+	#primary,
+	#secondary {
+		clear: left;
+		float: left;
+		overflow: hidden;
+		width: 99%; 
+	}
+	
+	#theme-credit, #site-description, #site-title {
+		clear: left;
+		float: left;
+		width: 95%;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 0.6%;
+	}
+
+} /* This belongs here. It goes to @media only screen and (min-width: 481px) and (max-width: 1024px) */
+
+@media screen and (max-width: 660px) {
+	#wrapper {
+		margin: 5px auto;
+		width: 90%;
+		padding: 0 3%;
+	}
+	
+	.main-navigation,
+	.main-navigation .menu-header,
+	div.menu,
+	#colophon,
+	#main,
+	#footer {
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	#site-title {
+		width: 100%;
+	}
+	
+	#container {
+		float: left;
+		width: 100%;
+		overflow: auto;
+		margin-bottom: 3%;
+	}
+	
+	#content {
+		width: 94%;
+		margin: 0 0px 0 0px;
+	}
+	
+	#primary,
+	#secondary {
+		clear: left;
+		float: left;
+		overflow: hidden;
+		width: 99%; 
+	}
+	
+	#theme-credit, #site-description, #site-info, #site-title {
+		clear: left;
+		float: left;
+		width: 95%;
+		padding: 0;
+		margin: 0;
+		margin-bottom: 0.6%;
+	}
+	
+	/*
+	LAYOUT: Responsive Images
+	DESCRIPTION: Responsive.
+	*/
+	
+	#content img {
+		margin: 0;
+		height: auto;
+		max-width: 100%;
+		width: auto;
+	}
+	
+	img, object, embed, #content .wp-caption {
+		max-width: 100%;
+	}
+	
+	#content figure,
+	#content .wp-caption {
+		width: 100%;
+	}
+	
+	#content figure img,
+	#content .wp-caption img {
+		max-width: 90%;
+	}
+	
+	#content .wp-caption.alignleft {
+		float: left;
+	}
+	#content .wp-caption.alignright {
+		float: right;
+	}
+	#content .alignleft,
+	#content img.alignleft {
+		display: block;
+		float: none;
+		margin: 0px auto;
+		padding: 0px 0px 5px 0px;
+	}
+	#content .alignright,
+	#content img.alignright {
+		display: block;
+		float: none;
+		margin: 0px auto;
+		padding: 0px 0px 5px 0px;
+	}
+
+} /* @media screen and (max-width: 660px) */
+
+
+/*
+/* We left these here for you incase you needed them. You do not need to add anything for the Videos or Images.
+/*
+/*
+/* Media = iPad orientation: landscape */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+	
+}/* This belongs here. It goes to @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) */
+
+/*--------------------------------------------------------------------------------*/
+
+/* Media = iPad orientation: portrait */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+
+}/* This belongs here. It goes to @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) */
+
+/*--------------------------------------------------------------------------------*/
+
+/* Media = Mobile - iPhone */
+
+@media handheld, only screen and (max-device-width: 480px) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	#content pre {
+		font-size: 60%;
+		overflow: hidden;
+		padding: 1em;
+	}
+	
+	#content code {
+		font-size: 50%;
+		margin-bottom: 24px;
+	}
+}/* This belongs here. It goes to @media handheld, only screen and (max-device-width: 480px) */
+	
+/* Media = Mobile - All Others - orientation:portrait */
+
+@media handheld, only screen and (max-device-width: 480px) and (orientation:portrait) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+	
+	#content pre {
+		font-size: 80%;
+		overflow: hidden;
+		padding: 1em;
+	}
+
+	#content code {
+		font-size: 50%;
+		margin-bottom: 24px;
+	}
+}/* @media handheld, only screen and (max-device-width: 480px) and (orientation:portrait) */
+
+/* Media = Mobile - All Others - orientation:landscape */
+
+@media handheld, only screen and (max-device-width: 767px) and (orientation:landscape) {
+	iframe, object, embed{
+		width: 100%;
+		height: auto;
+	}
+}/* This belongs here. It goes to @media handheld, only screen and (max-device-width: 767px) and (orientation:landscape) */
