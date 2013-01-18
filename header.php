@@ -63,7 +63,11 @@
 		</hgroup>
 
 		<nav class="site-nav main-navigation" role="navigation">
-			<h1 class="assistive-text section-heading"><?php _e( 'Menu', 'sombrero' ); ?></h1>
+			<div id="menu-toggle" class="assistive-text section-heading"><a class="toggle-btn" title="<?php _e( 'Menu', 'sombrero' ); ?>">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a></div>
 			<div class="skip-link screen-reader-text"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'sombrero' ); ?>"><?php _e( 'Skip to content', 'sombrero' ); ?></a></div>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>

@@ -11,7 +11,7 @@
 
 	<footer id="colophon" role="contentinfo">
 		<div id="theme-credit">
-			<a href="http://www.sombrerotheme.com/" title="Sombrero WordPress theme">Sombrero WordPress theme</a> by <a href="http://www.labeight.com" title="enile8">annihilate</a>
+			<a href="http://www.sombrerotheme.com/" title="Sombrero WordPress theme">Sombrero WordPress theme</a> by <a href="http://enile8.com" title="annihilate">enile8</a>
 		</div><!-- #theme-credit -->
 	</footer><!-- #colophon -->
 </div><!-- #wrapper -->

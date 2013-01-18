@@ -7,7 +7,7 @@ jQuery( document ).ready( function( $ ) {
 
 	$.fn.smallMenu = function() {
 		$masthead.find( '.site-nav' ).removeClass( 'main-navigation' ).addClass( 'main-small-navigation' );
-		$masthead.find( '.site-nav h1' ).removeClass( 'assistive-text' ).addClass( 'menu-toggle' );
+		$masthead.find( '.site-nav #menu-toggle' ).removeClass( 'assistive-text' ).addClass( 'menu-toggle' );
 
 		$( '.menu-toggle' ).unbind( 'click' ).click( function() {
 			$masthead.find( '.menu' ).toggle();
@@ -31,7 +31,7 @@ jQuery( document ).ready( function( $ ) {
 				$.fn.smallMenu();
 			} else {
 				$masthead.find( '.site-nav' ).removeClass( 'main-small-navigation' ).addClass( 'main-navigation' );
-				$masthead.find( '.site-nav h1' ).removeClass( 'menu-toggle' ).addClass( 'assistive-text' );
+				$masthead.find( '.site-nav #menu-toggle' ).removeClass( 'menu-toggle' ).addClass( 'assistive-text' );
 				$masthead.find( '.menu' ).removeAttr( 'style' );
 			}
 		}, 200 );
