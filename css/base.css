@@ -324,7 +324,7 @@ input[type="submit"] {
   background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
   background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
-  padding: 5px 14px 5px;
+  padding: 5px 12px 5px;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   color: #333;
   font-size: 13px;
@@ -775,12 +775,14 @@ img.alignright {
     text-decoration: none;
     position: relative; }
     .sombrero_page_navi li a:hover, .sombrero_page_navi li a:focus {
-      color: #0066cc;
-      text-decoration: underline; }
+      border-bottom: 2px solid #ff00cc;
+      color: #ff00cc;
+      text-decoration: none; }
 
 li.bpn-current {
-  padding: 3px 6px;
   border-bottom: 2px solid #0066cc;
+  color: #0066cc;
+  padding: 3px 6px;
   position: relative; }
 
 li.bpn-prev-link,
@@ -808,12 +810,13 @@ li.bpn-last-page-link a:hover {
   display: none; }
 
 #searchform input#s {
-  width: 55%; }
+  padding: 3px;
+  width: 56%; }
 
 input[type=text],
 input#s {
   margin: 0 1em 0 0;
-  width: 55%; }
+  width: 56%; }
 
 textarea {
   width: 80%; }

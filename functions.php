@@ -210,7 +210,7 @@ function sombrero_page_navi($before = '', $after = '') {
 function sombrero_scripts() {
 	global $post;
 	
-	wp_enqueue_style( 'reset', get_template_directory_uri() . '/css/reset.css' );
+	wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
 	
 	wp_enqueue_style( 'base', get_template_directory_uri() . '/css/base.css' );
 	
